@@ -75,7 +75,7 @@ a {
   }
   
   /* for tablet sized devices*/
-  @media screen and (max_width: 700px) {
+  @media screen and (max-width: 700px) {
     .section__padding{
         padding: 4rem;
     }
@@ -84,11 +84,12 @@ a {
     }
   }
 /* for phones */
-  @media screen and (max_width: 550) {
-    .section__padding{
-        padding: 4rem 2rem;
-    }
-    .section__margin{
-        margin: 4rem 2rem;
-    }
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
   }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
+}
